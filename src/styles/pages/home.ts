@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import banner from '../../assets/images/banner.jpg'
 
 export const Menu = styled.header`
   width: 100%;
@@ -31,7 +32,8 @@ export const Menu = styled.header`
 export const Banner = styled.div`
   width: 100%;
   height: 500px;
-  background-color: white;
+  background: no-repeat center;
+  background-image: url(${banner});
 
   div {
     max-width: 980px;
