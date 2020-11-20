@@ -12,6 +12,7 @@ export const TitleText = styled.h2`
   font-weight: 500;
   margin-left: -57px;
   color: var(--secondary-color);
+  z-index: 1;
 `
 
 export const ElementOne = styled.div`
@@ -20,7 +21,7 @@ export const ElementOne = styled.div`
   margin: 0;
   background-color: var(--primary-color-light);
   opacity: 50%;
-  z-index: -1;
+  z-index: 0;
 `
 
 export const ElementTwo = styled.div`

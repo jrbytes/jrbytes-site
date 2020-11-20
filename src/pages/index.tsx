@@ -1,6 +1,7 @@
 import { Menu, Banner } from '../styles/pages/home'
 
 import AboutMe from './components/AboutMe'
+import Skills from './components/Skills'
 
 import Logo from '../assets/images/logo.svg'
 import ToggleMenu from '../assets/images/toggle-menu.svg'
@@ -33,6 +34,8 @@ const Home: React.FC = () => {
       </Banner>
 
       <AboutMe />
+
+      <Skills />
     </>
   )
 }

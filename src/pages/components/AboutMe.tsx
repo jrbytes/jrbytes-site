@@ -1,6 +1,6 @@
 import { BsPersonLinesFill } from 'react-icons/bs'
 import {
-  AboutMe,
+  AboutMeCSS,
   Container,
   Article,
   Subtitle,
@@ -12,9 +12,9 @@ import Title from './Title'
 
 import imgPerfil from '../../assets/images/perfil.jpg'
 
-const Home: React.FC = () => {
+const AboutMe: React.FC = () => {
   return (
-    <AboutMe>
+    <AboutMeCSS>
       <Container>
         <img src={imgPerfil} alt="Jr Bytes" />
 
@@ -53,8 +53,8 @@ const Home: React.FC = () => {
           <Button>Download CV</Button>
         </Article>
       </Container>
-    </AboutMe>
+    </AboutMeCSS>
   )
 }
 
-export default Home
+export default AboutMe

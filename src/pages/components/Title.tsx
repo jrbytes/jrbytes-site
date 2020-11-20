@@ -14,7 +14,7 @@ const Title: React.FC<TitleProps> = ({ title }) => {
   return (
     <ContainerTitle>
       <ElementOne />
-      <TitleText>{title}</TitleText>
+      <TitleText>{title.toUpperCase()}</TitleText>
       <ElementTwo />
       <ElementThree />
     </ContainerTitle>

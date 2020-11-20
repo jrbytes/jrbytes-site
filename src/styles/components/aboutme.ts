@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const AboutMe = styled.div`
+export const AboutMeCSS = styled.div`
   width: 100%;
   margin-top: 107px;
 `
