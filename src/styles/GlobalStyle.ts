@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 export default createGlobalStyle`
   :root {
     --primary-color: #303244;
+    --primary-color-light: #686d82;
     --secondary-color: #2DEFCE;
     --text-color-primary: #303244;
     --text-color-secondary: #2DEFCE;
@@ -27,11 +28,14 @@ export default createGlobalStyle`
   }
 
   button {
+    background-color: var(--secondary-color);
     outline: none;
     border: none;
     padding: 12px 34px;
     border-radius: var(--border-radius);
     font-size: 20px;
+    font-weight: 500;
     color: var(--primary-color);
+    cursor: pointer;
   }
 `

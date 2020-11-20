@@ -1,5 +1,7 @@
 import { Menu, Banner } from '../styles/pages/home'
 
+import AboutMe from './components/AboutMe'
+
 import Logo from '../assets/images/logo.svg'
 import ToggleMenu from '../assets/images/toggle-menu.svg'
 
@@ -29,6 +31,8 @@ const Home: React.FC = () => {
           <button type="submit">Contrate-me</button>
         </div>
       </Banner>
+
+      <AboutMe />
     </>
   )
 }
