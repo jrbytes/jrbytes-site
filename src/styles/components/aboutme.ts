@@ -34,7 +34,7 @@ export const Article = styled.article`
 
   p {
     font-size: 16px;
-    color: var(--primary-color-light);
+    color: var(--primary-color-lighter);
 
     margin-top: 30px;
   }
@@ -63,7 +63,7 @@ export const Subtitle = styled.div`
 `
 
 export const PersonalInformation = styled.div`
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color-lighter-transparent);
   border-radius: var(--border-radius);
   margin-top: 30px;
   padding: 17px 30px;

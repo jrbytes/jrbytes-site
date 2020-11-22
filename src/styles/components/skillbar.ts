@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--primary-color);
 
     margin-bottom: 12px;
@@ -19,9 +19,10 @@ export const Container = styled.div`
 export const Pointer = styled.span`
   width: 16px;
   font-size: 14px;
+  font-weight: 500;
   color: var(--secondary-color);
 
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   padding: 4px 6px;
   border-radius: var(--border-radius);
 `
@@ -29,13 +30,18 @@ export const Pointer = styled.span`
 export const Bar = styled.div`
   height: 4px;
   border-radius: var(--border-radius);
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
   z-index: 0;
 `
 
 export const ProgressBar = styled.div`
   margin-top: -4px;
-  width: ${props => `${props.percent}%`};
+  width: 10px;
+
+  :hover {
+    width: ${props => `${props.percent}%`};
+    transition: width 1s;
+  }
 
   height: 4px;
   border-radius: var(--border-radius);

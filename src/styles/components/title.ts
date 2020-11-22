@@ -19,7 +19,7 @@ export const ElementOne = styled.div`
   width: 114px;
   height: 49px;
   margin: 0;
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color-lighter);
   opacity: 50%;
   z-index: 0;
 `
@@ -28,7 +28,7 @@ export const ElementTwo = styled.div`
   width: 110px;
   height: 0px;
   margin: 0 0 -0.75px 15.5px;
-  border-top: 2.5px dashed var(--primary-color-light);
+  border-top: 2.5px dashed var(--primary-color-lighter);
 `
 
 export const ElementThree = styled.div`
@@ -36,6 +36,6 @@ export const ElementThree = styled.div`
   height: 8px;
   background-color: var(--secondary-color);
   margin: 0;
-  border: 4px solid var(--primary-color-light);
+  border: 4px solid var(--primary-color-lighter);
   border-radius: 50%;
 `

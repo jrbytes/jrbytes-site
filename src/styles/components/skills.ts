@@ -6,7 +6,7 @@ export const SkillsCSS = styled.div`
   margin-top: 80px;
   padding-top: 65px;
 
-  background-color: #3c3f51;
+  background-color: var(--primary-color-light);
 `
 
 export const Container = styled.div`
@@ -33,7 +33,7 @@ export const SoftSkills = styled.div`
   width: 425px;
   padding: 30px 25px;
   border-radius: 5px 0 0 5px;
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color-lighter-transparent);
   border-right: 1px solid var(--primary-color);
 
   display: flex;
@@ -45,7 +45,7 @@ export const HardSkills = styled.div`
   width: 425px;
   padding: 30px 25px;
   border-radius: 0 5px 5px 0;
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color-lighter-transparent);
   border-left: 1px solid var(--primary-color);
 
   display: flex;
