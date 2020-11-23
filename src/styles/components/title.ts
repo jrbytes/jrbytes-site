@@ -16,12 +16,14 @@ export const TitleText = styled.h2`
 `
 
 export const ElementOne = styled.div`
-  width: 114px;
+  width: ${props => (props.expand === false ? '114px' : '180px')};
   height: 49px;
   margin: 0;
   background-color: var(--primary-color-lighter);
-  opacity: 50%;
+  opacity: ${props => (props.expand === false ? '50%' : '100%')};
   z-index: 0;
+
+  transition: width 0.3s, opacity 0.3s;
 `
 
 export const ElementTwo = styled.div`
