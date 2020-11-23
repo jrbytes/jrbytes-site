@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
         <Title title="habilidades" />
 
         <ContainerSkills>
-          <SoftSkills>
+          <SoftSkills data-anime="left">
             <BsPuzzleFill fontSize="32px" color="#303244" />
             <h2>Pessoais</h2>
             <SkillBar name="Comunicação" value={89} />
@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
             <SkillBar name="Motivação" value={95} />
           </SoftSkills>
 
-          <HardSkills>
+          <HardSkills data-anime="right">
             <BsTerminalFill fontSize="32px" color="#303244" />
             <h2>Profissionais</h2>
             <SkillBar name="HTML5 & CSS3" value={95} />

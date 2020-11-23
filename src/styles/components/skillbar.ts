@@ -38,10 +38,8 @@ export const ProgressBar = styled.div`
   margin-top: -4px;
   width: 10px;
 
-  :hover {
-    width: ${props => `${props.percent}%`};
-    transition: width 1s;
-  }
+  width: ${props => `${props.percent}%`};
+  transition: width 1s;
 
   height: 4px;
   border-radius: var(--border-radius);

@@ -12,7 +12,7 @@ interface TitleProps {
 
 const Title: React.FC<TitleProps> = ({ title }) => {
   return (
-    <ContainerTitle>
+    <ContainerTitle data-anime="top">
       <ElementOne />
       <TitleText>{title.toUpperCase()}</TitleText>
       <ElementTwo />

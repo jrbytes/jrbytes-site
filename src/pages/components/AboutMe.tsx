@@ -16,24 +16,24 @@ const AboutMe: React.FC = () => {
   return (
     <AboutMeCSS>
       <Container>
-        <img src={imgPerfil} alt="Jr Bytes" />
+        <img src={imgPerfil} alt="Jr Bytes" data-anime="left" />
 
         <Article>
           <Title title="SOBRE MIM" />
 
-          <Subtitle>
+          <Subtitle data-anime="right">
             <h3>Eu sou Júnior, apaixonado por programação e formado em ADS</h3>
             <div className="subtitle-element-bottom" />
           </Subtitle>
 
-          <p>
+          <p data-anime="right">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi sed do
             eiusm tempor incididunt ut labore et dolore magna.
           </p>
 
-          <PersonalInformation>
+          <PersonalInformation data-anime="right">
             <p>
               <span>Nome:</span> I S M Junior
             </p>
@@ -50,7 +50,7 @@ const AboutMe: React.FC = () => {
             <BsPersonLinesFill color="#303244" fontSize="35px" />
           </PersonalInformation>
 
-          <Button>Download CV</Button>
+          <Button data-anime="right">Download CV</Button>
         </Article>
       </Container>
     </AboutMeCSS>

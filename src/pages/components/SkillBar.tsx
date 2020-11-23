@@ -18,7 +18,7 @@ const SkillBar: React.FC<SkillBarProps> = ({ name, value }) => {
       </p>
 
       <Bar />
-      <ProgressBar percent={value} />
+      <ProgressBar percent={value} data-anime-percent />
     </Container>
   )
 }
