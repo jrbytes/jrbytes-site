@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 import { Menu, Banner } from '../styles/pages/home'
 
 import AboutMe from './components/AboutMe'
@@ -13,6 +15,10 @@ const Home: React.FC = () => {
 
   return (
     <>
+      <Head>
+        <title>Portfólio | Jr Bytes</title>
+      </Head>
+
       <Menu>
         <div>
           <Logo />
