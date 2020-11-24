@@ -14,7 +14,7 @@ const SkillBar: React.FC<SkillBarProps> = ({ name, value }) => {
   return (
     <Container>
       <p>
-        {name} <Pointer>{value}</Pointer>
+        {name} <Pointer percent={value}>{value}</Pointer>
       </p>
 
       <Bar />

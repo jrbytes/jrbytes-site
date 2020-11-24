@@ -11,8 +11,12 @@ export const Container = styled.div`
     font-size: 16px;
     font-weight: 700;
     color: var(--primary-color);
+    margin-bottom: 6px;
 
-    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 `
 
@@ -24,7 +28,9 @@ export const Pointer = styled.span`
 
   background-color: var(--primary-color-light);
   padding: 4px 6px;
-  border-radius: var(--border-radius);
+  border: 1.5px solid var(--primary-color);
+  border-radius: 20px 20px 5px 20px;
+  margin-right: ${props => `${(100 - props.percent) * (374 / 100)}px`};
 `
 
 export const Bar = styled.div`
