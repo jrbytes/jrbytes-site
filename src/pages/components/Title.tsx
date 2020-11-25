@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import {
   ContainerTitle,
   TitleText,
@@ -7,24 +6,21 @@ import {
   ElementThree,
 } from '../../styles/components/title'
 
+import useToggleEffect from '../hooks/ToggleEffect'
+
 interface TitleProps {
   title: string
 }
 
 const Title: React.FC<TitleProps> = ({ title }) => {
-  const [expand, setExpand] = useState(false)
-
-  function toggleEffect() {
-    const toggle = !expand
-    setExpand(toggle)
-  }
+  const [conditional, toggleEffect] = useToggleEffect()
 
   return (
     <ContainerTitle data-anime="top">
       <ElementOne
         onMouseOver={toggleEffect}
         onMouseLeave={toggleEffect}
-        expand={expand}
+        expand={conditional}
       />
       <TitleText>{title.toUpperCase()}</TitleText>
       <ElementTwo />
