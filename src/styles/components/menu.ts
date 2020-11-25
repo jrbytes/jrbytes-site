@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Menu = styled.header`
+export const MenuCSS = styled.header`
   width: 100%;
   height: 80px;
   background-color: var(--primary-color);
