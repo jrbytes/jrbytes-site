@@ -1,7 +1,8 @@
 import Head from 'next/head'
 
-import { Menu, Banner } from '../styles/pages/home'
+import { Menu } from '../styles/pages/home'
 
+import Banner from './components/Banner'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 
@@ -27,23 +28,7 @@ const Home: React.FC = () => {
         </div>
       </Menu>
 
-      <Banner>
-        <div>
-          <h2>Olá, eu sou Junior Bytes</h2>
-
-          <p>
-            Back-end developer
-            <span>/</span>
-            Front-end developer
-            <span>/</span>
-            Design & Web
-          </p>
-
-          <button type="submit" data-anime="left">
-            Contrate-me
-          </button>
-        </div>
-      </Banner>
+      <Banner />
 
       <AboutMe />
 
