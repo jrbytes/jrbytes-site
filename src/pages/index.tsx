@@ -7,6 +7,8 @@ import Skills from './components/Skills'
 
 import useAnimeScroll from './hooks/AnimeScroll'
 
+import 'animate.css'
+
 const Home: React.FC = () => {
   useAnimeScroll()
 
