@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const SkillsCSS = styled.div`
   width: 100%;
-  height: 500px;
   margin-top: 80px;
   padding-top: 65px;
+
+  padding-bottom: 80px;
 
   background-color: var(--primary-color-light);
 `
