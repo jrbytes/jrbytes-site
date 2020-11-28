@@ -9,7 +9,7 @@ export default createGlobalStyle`
     --secondary-color: #2DEFCE;
     --text-color-primary: #303244;
     --text-color-secondary: #2DEFCE;
-    --text-color-base: #FFFFFF;
+    --text-color-base: #F4FAFA;
     --border-radius: 5px;
   }
 
