@@ -6,14 +6,14 @@ import {
   FollowMe,
 } from '../../styles/components/footer'
 
-import Hi from '../../assets/images/logo-binary.svg'
+import LogoBinary from '../../assets/images/logo-binary.svg'
 
 const Footer: React.FC = () => {
   return (
     <FooterCSS>
       <Container>
         <Logo>
-          <Hi />
+          <LogoBinary />
         </Logo>
         <ContactMe>
           <p>
