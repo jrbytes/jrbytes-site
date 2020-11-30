@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const FooterCSS = styled.div`
   width: 100%;
-  padding: 35px 0 30px 0;
+  padding-top: 35px;
 `
 
 export const Container = styled.div`
@@ -38,4 +38,33 @@ export const ContactMe = styled.div`
 
 export const FollowMe = styled.div`
   width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  a {
+    text-decoration: none;
+    color: var(--text-color-base);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    svg {
+      color: var(--secondary-color);
+    }
+
+    p {
+      margin: 0 30px 0 10px;
+    }
+  }
+`
+
+export const Copyright = styled.div`
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 12px;
+  padding-bottom: 15px;
+
+  font-size: 13px;
 `
