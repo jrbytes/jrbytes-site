@@ -21,10 +21,14 @@ export const ContainerGithub = styled.div`
   align-items: center;
 
   p {
-    margin-left: -50px;
     font-size: 12px;
     line-height: 30px;
     color: var(--secondary-color);
+
+    a {
+      text-decoration: none;
+      color: var(--secondary-color);
+    }
   }
 
   img:first-child {
